@@ -24,6 +24,7 @@ public class CatalogApp {
 
 	@PostConstruct
 	public void generateTestData() {
+		System.out.println("Sample Addition to Code Build");
 		itemRepository.save(new Item("iPod", 42.0));
 		itemRepository.save(new Item("iPod touch", 21.0));
 		itemRepository.save(new Item("iPod nano", 1.0));
